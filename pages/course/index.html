@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% for item in site.data.navigation %}
+  <div>
+    <h2>{{ item.topic }}</h2>
+    <ul>
+      {% for course_item in item.courses %}
+
+        <li>
+          <a href="{{ course_item.link }}" >
+            {{ course_item.name }}
+          </a>
+          - {{ course_item.teacher }}老师@{{ course_item.school }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

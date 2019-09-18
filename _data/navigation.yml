@@ -1,0 +1,8 @@
+- topic: "机器学习"
+  courses:
+    - {name: "机器学习基石", teacher: "林轩田", school: "台大", link: /pages/course/ml/machine_learning_fundations_index}
+    - {name: "机器学习技法", teacher: "林轩田", school: "台大", link: /pages/course/ml/machine_learning_techniques_index}
+- topic: "数学"
+  courses:
+    - {name: "高等数学", teacher: "xxx", school: "国防科技大学", link: /pages/course/math/advanced_mathematics_index}
+    - {name: "线性代数", teacher: "yyy", school: "同济大学", link: /pages/course/math/linear_algebra_index}

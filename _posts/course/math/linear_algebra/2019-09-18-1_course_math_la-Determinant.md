@@ -1,0 +1,4 @@
+---
+title: Determinant
+published: true
+---

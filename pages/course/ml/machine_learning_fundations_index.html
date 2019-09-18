@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ site.data.course.ml.machine_learning_fundations.name }}</h2>
+<ul>
+  {% for item in site.data.course.ml.machine_learning_fundations.lessons %}
+    <li>
+      <a href="{{ item.link }}" >
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
