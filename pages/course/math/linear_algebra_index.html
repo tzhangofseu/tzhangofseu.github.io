@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ site.data.course.math.linear_algebra.name }}</h2>
+<ul>
+  {% for item in site.data.course.math.linear_algebra.lessons %}
+    <li>
+      <a href="{{ item.link }}" >
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

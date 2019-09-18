@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ site.data.course.math.advanced_mathematics.name }}</h2>
+<ul>
+  {% for item in site.data.course.math.advanced_mathematics.lessons %}
+    <li>
+      <a href="{{ item.link }}" >
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

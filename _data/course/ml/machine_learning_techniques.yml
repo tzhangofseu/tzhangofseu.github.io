@@ -1,0 +1,4 @@
+name: "机器学习技法"
+lessons:
+  - {title: "Linear Support Vector Machine", link: /1_course_ml_mlt-Linear-Support-Vector-Machine}
+  - {title: "Dual Support Vector Machine", link: /1_course_ml_mlt-Dual-Support-Vector-Machine}
