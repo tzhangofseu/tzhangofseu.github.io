@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ site.data.note.ml.tensorflow.name }}</h2>
+<ul>
+  {% for item in site.data.note.ml.tensorflow.notes %}
+    <li>
+      <a href="{{ item.link }}" >
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

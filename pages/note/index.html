@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% for item in site.data.note.navigation %}
+  <div>
+    <h2>{{ item.cat0 }}</h2>
+    <ul>
+      {% for topic_item in item.topics %}
+
+        <li>
+          <a href="{{ topic_item.link }}" >
+            {{ topic_item.cat1 }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
