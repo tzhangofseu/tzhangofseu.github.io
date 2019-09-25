@@ -1,3 +1,6 @@
 - cat0: "机器学习"
   topics:
     - {cat1: "Tensorflow", link: /pages/note/ml/tensorflow_index}
+- cat0: "日常工具说明"
+  topics:
+    - {cat1: "jekyll", link: /pages/note/tools/jekyll_index}    
