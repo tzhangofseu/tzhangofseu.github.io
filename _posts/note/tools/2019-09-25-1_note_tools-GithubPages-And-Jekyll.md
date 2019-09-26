@@ -27,6 +27,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 
    双\$
 
+`注意：编辑预览与实际网页展示会有差异，比如 ‘\in’预览时不显示`$$ \in $$
+
 可参考：
 
 [Latex用法](https://www.jianshu.com/p/2fe00efe06a3)
