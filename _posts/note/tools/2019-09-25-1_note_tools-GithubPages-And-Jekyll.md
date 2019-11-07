@@ -29,8 +29,12 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 
 `注意：编辑预览与实际网页展示会有差异，比如 ‘\in’预览时不显示`$$ \in $$
 
+$\max \limits_{a<x<b}\{f(x)\}$
+
 可参考：
 
 [Latex用法](https://www.jianshu.com/p/2fe00efe06a3)
 
 [Latex中的希腊字母表示](https://blog.csdn.net/xxzhangx/article/details/52778539)
+
+[常用符号大全](https://wenku.baidu.com/view/72cd5e78dc36a32d7375a417866fb84ae45cc39d.html)

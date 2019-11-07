@@ -14,7 +14,7 @@ published: true
 + 什么是机器学习
 + 机器学习的应用
 + 机器学习的组成
-+ 机器学习和其他领域
++ 机器学习和相关领域的关系
 
 # 什么是机器学习
 学习vs机器学习
@@ -81,3 +81,21 @@ hypothesis set $$ H $$:
 Model = $$ A $$ + $$ H $$
 
 机器学习：use data to compute hypothesis $$ g $$ that approximates target $$ f $$
+
+# 机器学习和相关领域的关系
+机器学习 vs 数据挖掘
++ 机器学习：use data to compute hypothesis $$ g $$ that approximates target $$ f $$
++ 数据挖掘：use (_huge_) data to _find_ _property_ that is interesting
++ 前者侧重挖掘出潜在模式，后者侧重找到数据关系，实际中区别不大
+
+机器学习 vs 人工智能
++ 人工智能：compute something that shows intelligent behavior
++ $$ g \approx f $$ 表现出智能行为时，就是人工智能
++ ML是实现AI的方式
+   + 传统AI：game tree
+   + ML for AI：learn from board data
+
+机器学习 vs 统计学
++ 统计学：use data to make inference about an unknown process
++ $$ g $$是推理结果，$$ f $$ 是未知的。统计是实现ML的方法。
++ 传统统计学侧重于通过对数学假设做证明，机器学习侧重于计算。
