@@ -2,3 +2,4 @@ name: "机器学习基石"
 lessons:
   - {title: "The Learning Problem", link: /1_course_ml_mlf-The-Learning-Problem}
   - {title: "Learning To Answer Yes/No", link: /1_course_ml_mlf-Learning-To-Answer-Yes-Or-No}
+  - {title: "Types of Learning", link: /1_course_ml_mlf-Types-of-Learning}

@@ -1,3 +1,6 @@
 name: "线性代数"
 lessons:
   - {title: "行列式", link: /1_course_math_la-Determinant}
+  - {title: "矩阵及其运算", link: /1_course_math_la-Determinant}
+  - {title: "矩阵的初等变化与线性方程组", link: /1_course_math_la-Determinant}
+  - {title: "向量组的线性相关性", link: /1_course_math_la-Determinant}
